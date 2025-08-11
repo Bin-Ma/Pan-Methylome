@@ -58,3 +58,9 @@ Folder containing per-strain gene information CSV files with genomic coordinates
 - `pan_methy_sense.tab` – Methylation statistics for the sense strand
 - `pan_methy_antisense.tab` – Methylation statistics for the antisense strand
 
+
+### Output format
+| Gene_ID | Site | Motif count |Methylation count| Strain count|Overlapping info|Length|Methylated_Strain_List |
+|---------|------|-----|---|--|-|---|----------------------|
+| 00001   | 125  | 80|60|84|0 |1000| strainA,strainC,...     |
+
